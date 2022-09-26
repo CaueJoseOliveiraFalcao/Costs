@@ -9,8 +9,9 @@ export default function Header() {
         <Router>
             <div className='div-p'>
                 <section className='img-p'>
-                    <img src="https://raw.githubusercontent.com/matheusbattisti/curso_react_yt/16_projeto_costs/src/img/costs_logo.png"/>
+                    <img alt='logo' src="https://raw.githubusercontent.com/matheusbattisti/curso_react_yt/16_projeto_costs/src/img/costs_logo.png"/>
                 </section>
+                
                 <ul>
                     <li><Link className='link' to='/'>Home</Link></li>
                     <li><Link className='link' to='/projetos'>Projetos</Link></li>
