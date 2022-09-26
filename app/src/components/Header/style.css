@@ -5,6 +5,8 @@
     list-style: none;
     flex-direction: row;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 ul{
     display: flex;
@@ -18,4 +20,9 @@ li{
 .link{
     text-decoration: none;
     color: white;
+}
+@media (max-width:462px) {
+    .div-p{
+        flex-direction: column;
+    }
 }

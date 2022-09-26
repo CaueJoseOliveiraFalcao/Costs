@@ -9,10 +9,12 @@ export default function Header() {
         <Router>
             <div className='div-p'>
                 <section className='img-p'>
-                    <img src="C:\Users\secc\Desktop\expenses-chart-component-main\Costs\app\src\img\costs_logo.png/"/>
+                    <img src="https://raw.githubusercontent.com/matheusbattisti/curso_react_yt/16_projeto_costs/src/img/costs_logo.png"/>
                 </section>
                 <ul>
                     <li><Link className='link' to='/'>Home</Link></li>
+                    <li><Link className='link' to='/projetos'>Projetos</Link></li>
+                    <li><Link className='link' to='/empresa'>Empresa</Link></li>
                     <li><Link className='link' to='/contato'>Contato</Link></li>
                 </ul>
             </div>
