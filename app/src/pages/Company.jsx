@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Contato(){
+export default function Company(){
     return(
         <section className='fix-position'>
-            Contato
+            Compania
         </section>
     )
 }

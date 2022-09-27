@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
-export default function Home(){
+export default function NewProject(){
     return(
         <section className='fix-position'>
-            home
+            NewProject
         </section>
     )
 }
