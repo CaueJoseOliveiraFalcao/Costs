@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom'
 import './style.css'
+import logo from 'app\src\img\costs_logo.png'
 import Home from '../../pages/Home';
 import Contato from '../../pages/Contato';
 import Company from '../../pages/Company';
 import NewProject from '../../pages/NewProject';
+import Projects from '../../pages/Projects';
 export default function Header() {
     return (
 
@@ -13,7 +15,7 @@ export default function Header() {
 
                 <section className='img-p'>
                     <img alt='logo' 
-                    src="https://raw.githubusercontent.com/matheusbattisti/curso_react_yt/16_projeto_cost/src/img/costs_logo.png" />
+                    src={logo} />
                 </section>
 
                 <ul>
@@ -21,6 +23,7 @@ export default function Header() {
                     <li><Link className='link' to='/empresa'>Empresa</Link></li>
                     <li><Link className='link' to='/contato'>Contato</Link></li>
                     <li><Link className='link' to='/novoprojeto'>NovoProjeto</Link></li>
+                    <li><Link className='link' to='/projetos'>Projetos</Link></li>
                 </ul>
             </div>
 
@@ -29,6 +32,7 @@ export default function Header() {
                 <Route path='contato' element={<Contato />} />
                 <Route path='empresa' element={<Company />} />
                 <Route path='novoprojeto' element={<NewProject />} />
+                <Route path='projeto' element={<Projects />} />
             </Routes>
         </Router>
 
