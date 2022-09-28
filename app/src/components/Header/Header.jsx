@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom'
 import './style.css'
-import logo from 'app\src\img\costs_logo.png'
+import logo from '../../img/costs_logo.png'
 import Home from '../../pages/Home';
 import Contato from '../../pages/Contato';
 import Company from '../../pages/Company';
@@ -29,10 +29,10 @@ export default function Header() {
 
             <Routes>
                 <Route exact path='/' element={<Home />} />
-                <Route path='contato' element={<Contato />} />
-                <Route path='empresa' element={<Company />} />
-                <Route path='novoprojeto' element={<NewProject />} />
-                <Route path='projeto' element={<Projects />} />
+                <Route path='/contato' element={<Contato />} />
+                <Route path='/empresa' element={<Company />} />
+                <Route path='/novoprojeto' element={<NewProject />} />
+                <Route path='/projetos' element={<Projects />} />
             </Routes>
         </Router>
 

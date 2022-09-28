@@ -1,3 +1,10 @@
 .fix-position{
     padding-top: 6rem;
+    margin: 0  6.25%;
+}
+@media (max-width:426px) {
+    .fix-position{
+        padding-top: 10rem;
+        margin: 0;
+    }
 }

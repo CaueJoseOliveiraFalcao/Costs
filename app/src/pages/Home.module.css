@@ -1,0 +1,37 @@
+
+.divM{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em;
+}
+.welcome{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.welcomeSpan{
+    background-color: black;
+    color: yellow;
+    padding: 0.2rem;
+    font-weight: 800;
+    
+}
+.gerency{
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+}
+@media (max-width:426px) {
+    .imgHome{
+        width: 300px;
+        margin-top: 2rem;
+    }
+    .welcome{
+        font-size: 2rem;
+    }
+    .gerency{
+        font-size: 1.1rem;
+    }
+
+}

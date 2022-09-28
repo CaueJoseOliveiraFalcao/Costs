@@ -1,0 +1,12 @@
+.projectButton{
+    background-color: yellow;
+    color: black;
+    transition: .3s;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 800;
+}
+.projectButton:hover{
+    background-color: black;
+    color: yellow;
+}

@@ -1,0 +1,17 @@
+footer{
+    background-color: #222;
+    color: #FFF;
+    padding: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.social-list{
+    transition:  .3s;
+    font-size: 20px;
+}
+.social-list:hover{
+    color: yellow;
+}
