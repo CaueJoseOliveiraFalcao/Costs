@@ -1,0 +1,6 @@
+.divP{
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 450px;
+}
