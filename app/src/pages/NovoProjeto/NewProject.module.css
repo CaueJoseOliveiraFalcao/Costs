@@ -1,0 +1,14 @@
+.divP{
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 450px;
+    padding: 1rem;
+}
+.Createh1{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.CreateP{
+    font-size: 1rem;
+}

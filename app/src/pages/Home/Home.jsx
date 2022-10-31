@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
-import savings from '../img/saving.svg'
-import style from '../pages/Home.module.css'
-import CriarProjeto from '../components/ButãoCriarProjeto/CriarProjeto'
+import savings from '../../img/saving.svg'
+import style from '../Home/Home.module.css'
+import CriarProjeto from '../../components/ButãoCriarProjeto/CriarProjeto'
 export default function Home() {
     return (
         <section className='fix-position'>

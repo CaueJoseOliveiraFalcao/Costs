@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom'
 import './style.css'
 import logo from '../../img/costs_logo.png'
-import Home from '../../pages/Home';
-import Contato from '../../pages/Contato';
-import Company from '../../pages/Company';
-import NewProject from '../../pages/NewProject';
-import Projects from '../../pages/Projects';
+import Home from '../../pages/Home/Home';
+import Contato from '../../pages/Contato/Contato';
+import Company from '../../pages/Empresa/Company';
+import NewProject from '../../pages/NovoProjeto/NewProject';
+import Projects from '../../pages/Projetos/Projects';
 export default function Header() {
     return (
 
